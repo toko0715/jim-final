@@ -1,0 +1,80 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Uncial+Antiqua&display=swap');
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    font-family: 'Uncial Antiqua', cursive;
+    background: url('https://cdn.wallpapersafari.com/6/77/BDhmwa.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.registro-form {
+    background: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    animation: fadeIn 1s ease-out;
+    width: 400px;
+    text-align: center;
+    border: 2px solid #d4af37;
+}
+
+.registro-form h2 {
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease-out;
+    color: #d4af37;
+    font-size: 24px;
+}
+
+.registro-form label {
+    display: block;
+    margin-top: 15px;
+    animation: fadeIn 2s ease-out;
+    color: #d4af37;
+}
+
+.registro-form input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d4af37;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    font-family: 'Uncial Antiqua', cursive;
+    animation: fadeIn 2.5s ease-out;
+    font-size: 14px;
+}
+
+.registro-form button {
+    width: calc(100% - 20px);
+    padding: 10px;
+    background-color: #d4af37;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    animation: fadeIn 3s ease-out;
+    font-family: 'Uncial Antiqua', cursive;
+}
+
+.registro-form button:hover {
+    background-color: #b8860b;
+}

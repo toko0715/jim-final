@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column;
+    background-color: black;
+    /* Fondo negro */
+    color: white;
+    /* Letras blancas */
+}
+
+.container { max-width: 768px;
+    text-align: center;
+}
+
+.images {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    /* Espacio entre los títulos y las imágenes */
+}
+
+.image {
+    margin: 0 10px;
+    /* Espacio entre las imágenes */
+    text-align: center;
+}

@@ -1,0 +1,102 @@
+
+.body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+
+.header {
+  background-color: #423b3b;
+}
+
+
+.nav {
+  padding-block: 2px;
+}
+
+
+.container {
+  max-width: 1024px;
+  padding-inline: 4px;
+  margin-inline: auto;
+}
+
+
+.title {
+  margin: 0;
+  font-size: 28px;
+}
+
+
+.d-flex {
+  display: flex;
+}
+
+
+.f-direction-column {
+  flex-direction: column;
+}
+
+
+.a-items-center {
+  align-items: center;
+}
+
+
+.gap-5xs {
+  gap: 8px; 
+}
+
+.gap-md {
+  gap: 24px;
+}
+
+body {
+  background-image: url("https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/02/analisis-warcraft-iii-reforged-1868217.jpg?tf=1200x");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+h2 {
+  color: rgb(255, 255, 255);
+}
+
+
+nav ul li a {
+  text-decoration: none;
+  color: rgb(25, 26, 25);
+}
+
+
+nav ul li a:hover {
+  color: black;
+}
+
+.nav ul {
+  list-style: none;
+}
+
+
+.nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+
+.nav .last-image {
+  margin-left: auto;
+}
+
+
+.nav ul li:nth-child(2) a.boton {
+  background-color: rgb(241, 227, 23);
+  color: black; 
+  display: inline-block; 
+  padding: 10px 20px; 
+  border-radius: 5px; 
+  text-decoration: none; 
+  vertical-align: middle; 
+  font-size: inherit; 
+}
+
